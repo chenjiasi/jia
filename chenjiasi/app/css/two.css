@@ -1,0 +1,249 @@
+    body,
+    ol,
+    ul,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    th,
+    td,
+    dl,
+    dd,
+    form,
+    fieldset,
+    legend,
+    input,
+    textarea,
+    select {
+        margin: 0;
+        padding: 0
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    b,
+    strong {
+        font-weight: normal;
+        font-size: 16px;
+    }
+    
+    i,
+    em {
+        font-style: normal;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #616161;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    input {
+        outline: none;
+    }
+    
+    img {
+        border: 0;
+    }
+    
+    html,
+    body {
+        font: 14px "Micsorft Yahei", Arial;
+        color: #333;
+        background: #f2f2f2;
+    }
+    
+    .clearfix {
+        *zoom: 1;
+    }
+    
+    .clearfix:after {
+        content: ' ';
+        clear: both;
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }
+    
+    .xiaomi-wrapper {
+        margin-top: 10px;
+        overflow: hidden;
+        background: #f2f2f2;
+    }
+    
+    .container {
+        width: 1226px;
+        margin: 0 auto;
+    }
+    
+    .brick-first {
+        width: 234px;
+        height: 614px;
+        margin-left: 14px;
+        position: relative;
+        float: left;
+    }
+    
+    .brick-list {
+        height: 614px;
+        margin: 0 0 -14px -14px;
+    }
+    
+    .brick-list li {
+        height: 300px;
+        position: relative;
+        float: left;
+        width: 234px;
+        margin: 0 14px 14px 0;
+        background: #fff;
+        transition: all .2s linear;
+    }
+    
+    .brick-first li:hover {
+        transition: all .2s linear;
+    }
+    
+    .brick-first li:hover {
+        z-index: 2;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        transform: translate3d(0, -2px, 0);
+    }
+    
+    .brick-list li a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .brick-list li img {
+        width: 234px;
+        height: 300px;
+    }
+    
+    .mi-goods {
+        width: 978px;
+        margin-left: 14px;
+        /* float: left; */
+        overflow: hidden;
+    }
+    
+    .goods-list {
+        height: 614px;
+    }
+    
+    .goods-item {
+        width: 234px;
+        height: 246px;
+        padding: 34px 0 20px;
+        position: relative;
+        float: left;
+        margin: 0 10px 14px 0;
+        background: #fff;
+        transition: all .2s linear;
+        cursor: pointer;
+    }
+    
+    .figure {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 18px;
+    }
+    
+    .figure a {
+        display: block;
+    }
+    
+    .figure img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .title {
+        color: #333;
+        margin: 0 10px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .title a {
+        display: block;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .desc {
+        margin: 0 10px 10px;
+        height: 18px;
+        font-size: 12px;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        color: #b0b0b0;
+    }
+    
+    .price {
+        margin: 0 10px 10px;
+        text-align: center;
+        color: #ff6700;
+    }
+    
+    .review-wrapper {
+        height: 76px;
+        opacity: 0;
+        position: absolute;
+        bottom: -76px;
+        left: 0;
+        z-index: 3;
+        width: 234px;
+        background-color: #ff6700;
+        font-size: 12px;
+        transition: all .2s linear;
+        overflow: hidden;
+    }
+    
+    .review-wrapper a {
+        display: block;
+        padding: 8px 30px;
+        outline: 0;
+    }
+    
+    .review {
+        margin-bottom: 5px;
+        color: #fff;
+    }
+    
+    .author {
+        color: #fff;
+        color: rgba(255, 255, 255, 0.6);
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    
+    .date {
+        margin-left: 6px;
+    }
+    
+    .mi-goods .goods-list li:hover .review-wrapper {
+        opacity: 1;
+        bottom: 0;
+    }
+    
+    .mi-goods .goods-list li:hover {
+        z-index: 2;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        transform: translate3d(0, -2px, 0);
+    }
